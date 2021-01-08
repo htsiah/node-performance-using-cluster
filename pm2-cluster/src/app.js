@@ -8,7 +8,7 @@ const doWork = ( duration ) => {
 
 app.get('/', function (req, res) {
     doWork(5000) // 5 seconds
-    res.send('Hello World')
+    res.send('Hello World 1')
 })
  
 
